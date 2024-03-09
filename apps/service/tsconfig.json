@@ -1,0 +1,12 @@
+{
+    "extends": "@config/ts/base.json",
+    "include": [
+        "src/**/*",
+        "tests/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        ".vscode"
+    ],
+    "baseUrl": ".",
+}
